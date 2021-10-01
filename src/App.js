@@ -33,7 +33,7 @@ function App() {
         deterministic: true,
         enableTooltip: false,
         padding: 4, // 패딩 설정 시 버그가 좀 있음.. ;;
-        fontSizes: [18, 100],
+        fontSizes: [26, 90],
         // fontWeight: 'bold',
         fontFamily: `-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif`,
         rotations: 0,
