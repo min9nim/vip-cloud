@@ -17,7 +17,6 @@ function App() {
 
     useEffect(() => {
         setTimeout(() => {
-            console.log('setWords!!!')
             setWords(list => {
                 start = start + COUNT
                 return list.map((item, idx) => ({text: item.text, value: start <= idx && idx < (start + COUNT) ? MAX : MIN}))
