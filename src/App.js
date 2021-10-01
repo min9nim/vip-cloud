@@ -19,6 +19,9 @@ function App() {
         setTimeout(() => {
             setWords(list => {
                 start = start + COUNT
+                if(start > vipList.length){
+                    start = 0
+                }
                 return list.map((item, idx) => ({text: item.text, value: start <= idx && idx < (start + COUNT) ? MAX : MIN}))
             })
         }, 7000)
