@@ -9,13 +9,11 @@ const MIN = 1
 
 
 function App() {
-
     const [words, setWords] = useState(() => vipList.map(
         (name, idx) => ({
             text: name,
             value: idx < COUNT ? MAX : MIN
         })))
-    console.log('words', words)
 
     useEffect(() => {
         setTimeout(() => {
