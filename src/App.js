@@ -41,6 +41,7 @@ function App() {
 
   return (
     <div style={{height: "100vh"}}>
+        <div style={{fontSize: 20, fontWeight: 'bold', textAlign: 'center'}}>2021 전도데이 1024 VIP 현황 (총: {vipList.length}명)</div>
       <ReactWordcloud words={words} options={options} maxWords={1000}/>
     </div>
   );
