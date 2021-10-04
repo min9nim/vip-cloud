@@ -1,12 +1,12 @@
 import VipCloud from './VipCloud'
-import VipCloud2 from './VipCloud2'
+import VipCloud3 from './VipCloud2'
 import { oneOf } from '@madup-inc/utils'
 
 export default function App() {
   return <div style={{height: "100vh", display: 'flex', flexDirection: 'column'}}>
     <div style={{fontSize: 20, fontWeight: 'bold', textAlign: 'center'}}>2021 전도데이 1024 VIP 현황 (총: {431}명)</div>
     {oneOf(
-        [[window.location.pathname === '/2', () => <VipCloud2 list={vipList} />]],
+        [[window.location.pathname === '/2', () => <VipCloud3 list={vipList} />]],
         () => <VipCloud list={vipList} />,
     )}
   </div>
