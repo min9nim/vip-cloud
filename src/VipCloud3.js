@@ -33,20 +33,22 @@ export default function VipCloud3({ list }) {
   }, [words, vipList.length])
 
   return (
-    <div style={{ display: 'flex', padding: '20px 10px 10px', flexWrap: 'wrap', flex: 1 }}>
+      <div style={{ display: 'flex', padding: '20px 10px 10px', flexWrap: 'wrap', flex: 1 }}>
       {words.map(({ text, value }, idx) => (
-        <div
+        <span
           style={{
             fontSize: 18,
+            opacity: value > 20 ? 1 : 0.5,
+            display: 'inline-block',
             transition: `transform 1s ease-in-out`,
-            transform: value > 20 ? 'scale(2.0)' : 'scale(1.0)',
+            transform: value > 20 ? 'scale(3.0)' : 'scale(1.0)',
             padding: '0 20px',
             color: colors[Math.floor(Math.random() * 20)],
           }}
           key={idx}
         >
           {text}
-        </div>
+        </span>
       ))}
     </div>
   )
