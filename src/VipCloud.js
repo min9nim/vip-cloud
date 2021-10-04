@@ -25,7 +25,7 @@ export default function VipCloud({list}) {
                 return list.map((item, idx) => ({text: item.text, value: start <= idx && idx < (start + COUNT) ? MAX : MIN}))
             })
         }, 5000)
-    }, [words])
+    }, [words, vipList.length])
 
 
     const options = {
@@ -39,10 +39,5 @@ export default function VipCloud({list}) {
         rotations: 0,
     }
 
-  return (
-    <div style={{height: "100vh"}}>
-        <div style={{fontSize: 20, fontWeight: 'bold', textAlign: 'center'}}>2021 전도데이 1024 VIP 현황 (총: {431}명)</div>
-      <ReactWordcloud words={words} options={options} maxWords={1000}/>
-    </div>
-  );
+  return <ReactWordcloud words={words} options={options} maxWords={1000}/>
 }
