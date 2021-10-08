@@ -1,3 +1,5 @@
+// eslint-disable
+
 // @ts-nocheck
 /**
  * Author: Augustinas (https://github.com/WhoAteDaCake)
