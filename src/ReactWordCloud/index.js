@@ -1,3 +1,4 @@
+/* eslint-disable */
 import debounce from 'lodash.debounce'
 import React, { useEffect, useRef } from 'react'
 
@@ -59,7 +60,7 @@ function ReactWordCloud({
         initRender,
       })
     }
-  }, [maxWords, mergedCallbacks, mergedOptions, selection, size, words])
+  }, [initRender, maxWords, mergedCallbacks, mergedOptions, selection, size, words])
 
   return <div ref={ref} style={{ height: '100%', width: '100%' }} {...rest} />
 }
