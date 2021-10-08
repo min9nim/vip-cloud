@@ -7,7 +7,7 @@ const COUNT = 20
 const MAX = 10
 const MIN = 1
 
-export default function VipCloud({list}) {
+export default function VipCloud2({list}) {
     const vipList = list
     const [words, setWords] = useState(() => vipList.map(
         (name, idx) => ({

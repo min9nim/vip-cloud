@@ -1,4 +1,3 @@
-import VipCloud from './VipCloud'
 import VipCloud2 from './VipCloud2'
 import VipCloud3 from './VipCloud3'
 
@@ -15,10 +14,9 @@ export default function App() {
         [
           [window.location.pathname === '/2', () => <VipCloud2 list={vipList} />],
           [window.location.pathname === '/3', () => <VipCloud3 list={vipList} />],
-          [window.location.pathname === '/4', () => <WordCloud words={vipList.map(name => ({text: name, value: 1}))} />],
         ],
         () => (
-          <VipCloud list={vipList} />
+            <WordCloud words={vipList.map(name => ({text: name, value: 1}))} />
         ),
       )}
     </div>
