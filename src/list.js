@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default `
 
 전정길\t\t\t\t\t\t\t\t\t\t\t\t\t
