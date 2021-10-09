@@ -33,7 +33,7 @@ export default function VipCloud2({list}) {
         deterministic: true,
         enableTooltip: false,
         padding: 5, // 패딩 설정 시 버그가 좀 있음.. ;;
-        fontSizes: [18, 80],
+        fontSizes: [15, 80],
         // fontWeight: 'bold',
         fontFamily: `-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif`,
         rotations: 0,
