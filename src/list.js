@@ -124,6 +124,6 @@ export default `
 홍찬우\t홍정우\t구택서\t방건평\t\t\t\t\t\t\t\t\t\t
 전재문\t이승혁\t황영난\t이헌\t\t\t\t\t\t\t\t\t\t
 최명진\t김하원\t\t\t\t\t\t\t\t\t\t\t\t
-홍순자\t김경남\t강신기\t김선희\t강신유
+홍순자\t김경남\t강신기\t김선희\t강신유\t
 
 `
