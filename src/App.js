@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div style={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
       <div style={{ fontSize: 20, fontWeight: 'bold', textAlign: 'center' }}>
-        2021 전도데이 1024, 작정 123명 & VIP 439명
+        2021 전도데이 1024, 작정 125명 & VIP 444명
       </div>
       {oneOf(
         [
